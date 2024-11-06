@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Slider Animated Website Design | Codehal</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Home</title>
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><b>Oakton Code Base</b></a>
+        
+        <!--
+            a -> clickable link
+            href = "#" reference to another link
+        -->
+        <nav class="navbar">
+            <a class="navlinks" href="./index.html">Home</a>
+            <a class="navlinks" href="./about.html">About</a>
+            <a class="navlinks" href="#">Services</a>
+            <a class="navlinks" href="#">Contact</a>
+
+        </nav>
+    </header>
+    
+    <main data-router-wrapper>
+        <section data-router-view="home" class = "home">
+            <div class="home-content">
+
+                <!--slide 1-->
+                <div class="bg-slide active">
+                    <div class="circle bg">
+                        <img src = "imgs/img7.png">
+                    </div>
+
+                    <div class="circle large">
+                        <img src = "imgs/img7.png">
+                    </div>
+                    <div class="circle small">
+                        <img src = "imgs/img7.png">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="place">
+                            <h1>薬屋</h1>
+                        </div>
+
+
+                        <div class="country">
+                            <h2>
+                                Maomao
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--slide 2-->
+                <div class="bg-slide">
+                    <div class="circle bg">
+                        <img src = "imgs/img2.png">
+                    </div>
+
+                    <div class="circle large">
+                        <img src = "imgs/img2.png">
+                    </div>
+                    <div class="circle small">
+                        <img src = "imgs/img2.png">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="place">
+                            <h1>ソードアート</h1>
+                        </div>
+
+
+                        <div class="country">
+                            <h2>
+                                オンライン
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--slide 3-->
+
+                <div class="bg-slide">
+                    <div class="circle bg">
+                        <img src = "imgs/img12.jpg">
+                    </div>
+
+                    <div class="circle large">
+                        <img src = "imgs/img12.jpg">
+                    </div>
+                    <div class="circle small">
+                        <img src = "imgs/img12.jpg">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="place">
+                            <h1>転スラ</h1>
+                        </div>
+
+
+                        <div class="country">
+                            <h2>
+                                Shuna
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--slide 4-->
+
+                <div class="bg-slide">
+                    <div class="circle bg">
+                        <img src = "imgs/img9.jpeg">
+                    </div>
+
+                    <div class="circle large">
+                        <img src = "imgs/img9.jpeg">
+                    </div>
+                    <div class="circle small">
+                        <img src = "imgs/img9.jpeg">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="place">
+                            <h1>トニカク</h1>
+                        </div>
+
+
+                        <div class="country">
+                            <h2>カワイイ</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--slide 5-->
+
+                <div class="bg-slide">
+                    <div class="circle bg">
+                        <img src = "imgs/img10.jpg">
+                    </div>
+
+                    <div class="circle large">
+                        <img src = "imgs/img10.jpg">
+                    </div>
+                    <div class="circle small">
+                        <img src = "imgs/img10.jpg">
+                    </div>
+
+                    <div class="content-text">
+                        <div class="place">
+                            <h1>青春ブタ野郎</h1>
+                        </div>
+
+
+                        <div class="country">
+                            <h2>麻衣</h2>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="circle-darktransp"></div>
+
+                <span class="line"></span>
+
+                <span class="rotate-btn">
+                    <i class='bx bx-rotate-right'></i>
+                </span>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
